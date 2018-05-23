@@ -26,24 +26,38 @@
         <link href="css/sb-admin.css" rel="stylesheet">
     </head>
 
-    <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-        <!-- Navigation-->
-         <%@include file="header.jsp"%>
-        <div class="content-wrapper">
-            <div class="container-fluid">
-                <%@include file="dashboard.jsp"%>
-                <%@include file="footer.jsp"%>
-                <!-- Scroll to Top Button-->
-                <a class="scroll-to-top rounded" href="#page-top">
-                    <i class="fa fa-angle-up"></i>
-                </a>
-               
-              <%@include file="script.jsp"%>
-               
-                
+   <body class="bg-dark">
+  <div class="container">
+    <div class="card card-login mx-auto mt-5">
+      <div class="card-header">Login</div>
+      <div class="card-body">
+        <form action="LoginController" method="post">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input class="form-control" id="exampleInputEmail1" type="text" aria-describedby="emailHelp" placeholder="Enter Username" name="username">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" name="password">
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember Password</label>
             </div>
+          </div>
+          <input class="btn btn-primary btn-block" type="submit" value="Login"/>
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="register.html">Register an Account</a>
+          <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+
+ <%@include file="js/script.jsp"%>
+</body>
 
 </html>
 

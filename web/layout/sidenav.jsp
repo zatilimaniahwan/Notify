@@ -29,19 +29,11 @@
                             <span class="nav-link-text">Reports</span>
                         </a>
                     </li>
-                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
-                        <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
-                            <i class="fa fa-fw fa-user"></i>
-                            <span class="nav-link-text">Components</span>
+                     <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+                        <a class="nav-link" href="ListUser.jsp">
+                            <i class="fa fa-fw fa-users"></i>
+                            <span class="nav-link-text">Manage Users</span>
                         </a>
-                        <ul class="sidenav-second-level collapse" id="collapseComponents">
-                            <li>
-                                <a href="navbar.html">Navbar</a>
-                            </li>
-                            <li>
-                                <a href="cards.html">Cards</a>
-                            </li>
-                        </ul>
                     </li>
 
 
