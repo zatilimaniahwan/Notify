@@ -1,6 +1,6 @@
 <%-- 
-    Document   : ListUser
-    Created on : May 23, 2018, 1:40:20 PM
+    Document   : ListMenu
+    Created on : May 25, 2018, 1:35:59 PM
     Author     : Zatil Imani Ahwan
 --%>
 
@@ -30,7 +30,7 @@
                 <div class="container-fluid">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="home.jsp"><i class="fa fa-home"></i> Dashboard</a> /&nbsp;<a href="ListUser.jsp"> Manage User</a> 
+                            <a href="home.jsp"><i class="fa fa-home"></i> Dashboard</a> /&nbsp;<a href="UserController?action=listuser"> Manage User</a> 
                         </li>
                     </ol>
                     <h5 class="display-4">Manage User</h5>
@@ -40,7 +40,7 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Matric No</th>
+                                    <th>Code</th>
                                     <th>Name</th>
                                     <th>Email Address</th>
                                     <th>Designation</th>
@@ -98,3 +98,4 @@
 
     </body>
 </html>
+

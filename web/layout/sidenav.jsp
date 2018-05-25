@@ -30,7 +30,7 @@
                         </a>
                     </li>
                      <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                        <a class="nav-link" href="ListUser.jsp">
+                        <a class="nav-link" href="UserController?action=listuser">
                             <i class="fa fa-fw fa-users"></i>
                             <span class="nav-link-text">Manage Users</span>
                         </a>

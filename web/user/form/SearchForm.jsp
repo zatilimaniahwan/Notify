@@ -12,14 +12,14 @@
         <div class="card  mx-3 mt-12">
             <div class="card-header">Search Form</div>
             <div class="card-body">
-                <form class="form-inline">
+                <form class="form-inline" action="UserController" method="get">
                     <label  for="inlineFormInput">Name</label>&nbsp;
-                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="">&nbsp;
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="" name="name">&nbsp;
 
                     <label  for="inlineFormInputGroup">Matric No</label>&nbsp;
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
 
-                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="" name="matricno">
                     </div>
                     <label for="exampleConfirmPassword">User Group</label>&nbsp;
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
